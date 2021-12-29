@@ -1,5 +1,7 @@
 html body{
-    background-color: #F5F5F5;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     margin: 0;
     padding: 0;
 }
@@ -18,11 +20,18 @@ html body{
 }
 
 .titulo{
-    font-size: 25px;
-    color: #183883;
+    font-size: 30px;
+    color: #fff;
     text-align: center;
     padding: 20px;
     font-weight: 600;
+    margin: 100px 0 150px 0;
+    text-shadow: rgb(116, 113, 113) 1px 0 5px;
+}
+
+.titulo .azul{
+    font-size: 35px;
+    color: #4ac5d9;
 }
 
 .fundo-kazaz{
@@ -37,6 +46,11 @@ html body{
     background-image: url(../img/loc2.jpg);
     background-position: center;
     background-size: cover;
+    height: 350px;
+    float: left;
+}
+
+.fundo{
     height: 350px;
     float: left;
 }
