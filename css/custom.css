@@ -1,0 +1,80 @@
+html body{
+    background-color: #F5F5F5;
+    margin: 0;
+    padding: 0;
+}
+
+.top{
+    width: 100%;
+    height: 20px;
+    background-color: #183883;
+}
+
+.logo-solucao{
+    background-image: url(../img/logo.png);
+    width: 200px;
+    height: 198px;
+    margin: auto;
+}
+
+.titulo{
+    font-size: 25px;
+    color: #183883;
+    text-align: center;
+    padding: 20px;
+    font-weight: 600;
+}
+
+.fundo-kazaz{
+    background-image: url(../img/loc.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    float: left;
+}
+
+.fundo-marco{
+    background-image: url(../img/loc2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    float: left;
+}
+
+.fundo-kazaz .logo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.fundo-marco .logo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.botao-acessar{
+    padding: 10px 30px;
+    background-color: #F5F5F5;
+    font-size: 18px;
+    color: black;
+    margin: auto;
+    width: 60%;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.botao-acessar:hover{
+    background-color: #d37500;
+    color: #F5F5F5;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none !important;
+}
